@@ -1,0 +1,77 @@
+.single-portfolio-content{
+  margin-bottom: 50px;
+
+ .filter_img {
+    margin-bottom: 30px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .portfolio-section{
+    margin-top: 15px;
+
+     &-text p {
+      margin-bottom: 50px;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.0em;
+      margin: 0px;
+      padding-top: 15px;
+      color: #212121;
+      line-height: 26px;
+    }
+
+    &-sidebar {
+      text-align: left;
+      h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        margin: 0px;
+        padding-top: 15px;
+        color: #000;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      a {
+        display: block;
+        padding-top: 10px;
+        color: #212121;
+        font-size: 1em;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-left: 10px;
+        &:hover {
+          color: #212112;
+        }
+        &:active, &:focus {
+          text-decoration: none;
+          color: #212121;
+        }
+      }
+      p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.0em;
+        margin: 0px;
+        color: #212121;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin-left: 10px;
+      }
+      hr {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        width: 0px;
+      }
+    }
+    .single-portfolio-share a, .single-portfolio-tags a {
+      display: inline-block;
+    }
+  } 
+}

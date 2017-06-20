@@ -1,0 +1,53 @@
+.contact-page {
+  margin-bottom: 50px;
+
+  .contact-right h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    margin: 0px;
+    padding-top: 50px;
+  }
+  .contact-me {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    h2 {
+      margin: 0px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      color: #212121;
+      letter-spacing: 2px;
+    }
+    hr {
+      width: 0px;
+      margin-top: 7px;
+      margin-bottom: 0px;
+    }
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.1em;
+      color: #212121;
+      line-height: 27px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+      margin-left: 10px;
+    }
+  }
+
+  #subject-input {
+    margin-top: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0px;
+  }
+
+  .contact-form {
+    margin-top: 55px;
+  }
+}

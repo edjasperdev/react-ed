@@ -1,0 +1,113 @@
+.grid-blog-content{
+  .filter_img {
+    margin-bottom: 30px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .sidebar-article {
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+  h2 {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    line-height: 26px;
+  }
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    font-size: 0.9em;
+    margin: 0px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 23px;
+  }
+  a {
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    &:hover {
+      text-decoration: none;
+      color: #212121;
+      opacity: 0.8;
+    }
+    &:active, &:focus {
+      color: #212121;
+      text-decoration: none;
+    }
+  }
+  p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0px;
+    padding-top: 13px;
+    color: #212121;
+    line-height: 26px;
+  }
+  button {
+    margin-top: 20px;
+    border: 1px solid #212121;
+    background: #212121;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    transition: all .3s ease;
+    outline: none;
+    font-size: 0.9em;
+  }
+}
+
+.sidebar-b {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  h2 {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 2px;
+  }
+  hr {
+    width: 0px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  a {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #212121;
+    margin-left: 10px;
+    &:hover {
+      color: #212121;
+      text-decoration: none;
+      opacity: 0.8;
+    }
+    &:active, &:focus {
+      color: #212121;
+      text-decoration: none;
+    }
+  }
+}
+
+}

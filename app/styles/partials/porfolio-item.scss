@@ -1,0 +1,131 @@
+.portfolio-item{
+
+  &.filter_img {
+    margin-bottom: 30px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .media {
+    width: 100% !important;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+  }
+
+  .media__image {
+    display: block;
+  }
+
+  .media__body {
+
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    color: white;
+
+    font-size: 1em;
+    overflow: hidden;
+    left: 0;
+    opacity: 0;
+    padding: 3.75em 3em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    &:hover {
+      opacity: 1;
+    }
+    &:after {
+      border: none;
+      bottom: 1em;
+      content: '';
+      left: 1em;
+      opacity: 0;
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: 0.2s 0.1s;
+      transition: 0.2s 0.1s;
+    }
+    &:before {
+      border: none;
+      bottom: 1em;
+      content: '';
+      left: 1em;
+      opacity: 0;
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: 0.2s 0.1s;
+      transition: 0.2s 0.1s;
+      border-bottom: none;
+      border-top: none;
+      left: 2em;
+      right: 2em;
+    }
+    &:hover {
+      &:after, &:before {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #5E5E5E;
+      margin-top: -25px;
+      font-size: 16px;
+    }
+    h2 {
+      margin-top: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: uppercase;
+      color: #5E5E5E;
+      margin: 0px;
+      padding: 0px;
+    }
+    p {
+      margin-top: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #5E5E5E;
+      padding-top: 0px;
+      margin-top: 20px;
+    }
+  }
+
+  .media .media__body {
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+    width: 95%;
+    height: 95%;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
